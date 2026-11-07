@@ -1,6 +1,6 @@
 package padroescomportamentais.mediator;
 
-public class Pessoa {
+public abstract class Pessoa {
 
     public String solicitarFerias(String mensagem) {
         return RH.getInstancia().receberPedidoFeriasChefe(mensagem);
